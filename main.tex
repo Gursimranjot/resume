@@ -1,0 +1,234 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Gursimranjot Singh} \\ \vspace{1pt}
+    \small +91-9646421749 $|$ \href{mailto:simran23dhiman@gmail.com}{\underline{simran23dhiman@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/gursimran2}{\underline{linkedin.com/in/gursimran2/}} $|$
+    \href{https://github.com/Gursimranjot}{\underline{github.com/Gursimranjot}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {LCET, Katani Kalan (P.T.U)}{Ludhiana, Punjab}
+      {Bachelor in Computer Science}{Aug. 2009 -- May 2013}
+    \resumeSubheading
+      {Lovely Professional University}{Jalandhar, Punjab}
+      {Masters in Business Administration (Distance Education)}{Aug. 2017 -- June 2019}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Web Designer}{Jan 2019 -- Present}
+      {Smartshore-Ability}{Ludhiana, IN}
+      \resumeItemListStart
+        \resumeItem{Work on Front-end of the projects and develop working prototypes with HTML,CSS and JS.}
+        \resumeItem{Work on development of opdrachtoverheid.nl. Project is build in VUE Js. As a designer my responsibilities is making interactive prototypes using VUE Js code.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Web Designer}{Sep. 2014 -- Dec.2018}
+      {Pragyaware Informatics Pvt Ltd}{Ludhiana, IN}
+      \resumeItemListStart
+         \resumeItem{Work on Front-end of the projects and develop working prototypes with HTML,CSS and JS.}
+        \resumeItem{Work on UI/UX design projects for web, android and IOS application}
+        \resumeItem{Make presentation templates}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {Technical Support Engineer}{May 2013 -- Dec 2013}
+      {Svimtech Software Pvt Ltd}{Mohali(Punjab), IN}
+      \resumeItemListStart
+        \resumeItem{My responsibilities were testing the software developed by organisation}
+        \resumeItem{Client interaction to get feedback by regarding the company product}
+        \resumeItem{Giving presentation to the clients in how to use the company products}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{opdrachtoverheid.nl} $|$ \emph{Vue,RestAPI}}{Jan 2021 -- Present}
+          \resumeItemListStart
+            \resumeItem{Development using VUE JS and build interfaces according to
+            provided Figma UI/UX design}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Red Cross Dashboard} $|$ \emph{HMTL/CSS, Javascript, Jquery}}{June 2019 -- Dec 2020}
+          \resumeItemListStart
+            \resumeItem{Developed the Front-end of web application using with HTML/CSS and JS as the frontend}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{epayment.dhbvn.org.in} $|$ \emph{UI/UX design and Front-end development  }}{Jan 2015 -- Mar 2015}
+          \resumeItemListStart
+            \resumeItem{UI/UX design and build prototypes accordingly}
+            \resumeItem{Development using HTML/CSS/JS}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{NTPC Portal} $|$ \emph{UI/UX design and Front-end development }}{June 2016 -- Dec 2016}
+          \resumeItemListStart
+            \resumeItem{UI/UX and Frontend using HMTL/CSS/JS for the website and internal dashboard}
+          \resumeItemListEnd
+     \resumeProjectHeading
+          {\textbf{www.upcl.org} $|$ \emph{UI/UX design and Front-end development }}{Jan 2018 -- May 2018}
+          \resumeItemListStart
+            \resumeItem{UI/UX design and build interactive prototypes }
+            \resumeItem{Development using HTML/CSS/JS}
+            \resumeItem{Visit client side to gather feedback regarding design and make changes accordingly}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{Android Mobile Application} $|$ \emph{UI/UX design }}{Sep 2014 -- May 2018}
+          \resumeItemListStart
+            \resumeItem{DHBVN Electricity Bill Payment }
+            \resumeItem{Urja Sarthi}
+            \resumeItem{NTPC Samvaad}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: HTML/CSS, Javascript} \\
+     \textbf{Frameworks}{: Vue, bootstrap, WordPress(elementor)} \\
+     \textbf{Developer Tools}{: Git, Docker, VS Code} \\
+     \textbf{UI/UX Tools}{: Figma, Adobe XD, Photoshop, Illustrator}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
