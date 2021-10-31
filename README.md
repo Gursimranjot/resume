@@ -1,4 +1,4 @@
-# harshibar's resume
+# Gursimran's resume
 
 A **one-page**, **one-column column** resume template by Gursimranjot Singh. This template is **minimal**, highlights **details** through links, and is a **single page**.
 
